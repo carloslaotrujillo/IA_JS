@@ -9,6 +9,7 @@ function initApp() {
 function initState() {
     state.dotsCounter = 0;
     state.totalDots = $('#dots-drag > img').length;
+
     $('#dots-drag > img').animate({
         top: '0px',
         left: '0px'
